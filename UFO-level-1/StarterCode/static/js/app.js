@@ -1,5 +1,3 @@
-// // from data.js
-// let tableData = data;
 
 // Select button
 let button = d3.select("#filter-btn");
@@ -19,7 +17,6 @@ function runEnter() {
     // Get the value property of the input date
     let inputValue = inputDate.property('value');
   
-    // console.log("inputvalue",inputValue);
 
     //select the table body and clear it
     let tbody = d3.select("tbody");
